@@ -166,6 +166,65 @@ function ConvertTo-ObjectArray {
     return $items
 }
 
+function Format-Json {
+    param([string] $Json)
+
+    $builder = [System.Text.StringBuilder]::new()
+    $indent = 0
+    $inString = $false
+    $escape = $false
+
+    foreach ($char in $Json.ToCharArray()) {
+        if ($inString) {
+            [void]$builder.Append($char)
+            if ($escape) {
+                $escape = $false
+            }
+            elseif ($char -eq "\") {
+                $escape = $true
+            }
+            elseif ($char -eq '"') {
+                $inString = $false
+            }
+            continue
+        }
+
+        switch ($char) {
+            '"' {
+                $inString = $true
+                [void]$builder.Append($char)
+            }
+            { $_ -eq "{" -or $_ -eq "[" } {
+                [void]$builder.Append($char)
+                [void]$builder.AppendLine()
+                $indent++
+                [void]$builder.Append(("  " * $indent))
+            }
+            { $_ -eq "}" -or $_ -eq "]" } {
+                [void]$builder.AppendLine()
+                $indent--
+                [void]$builder.Append(("  " * $indent))
+                [void]$builder.Append($char)
+            }
+            "," {
+                [void]$builder.Append($char)
+                [void]$builder.AppendLine()
+                [void]$builder.Append(("  " * $indent))
+            }
+            ":" {
+                [void]$builder.Append(": ")
+            }
+            { [char]::IsWhiteSpace($_) } {
+            }
+            default {
+                [void]$builder.Append($char)
+            }
+        }
+    }
+
+    return $builder.ToString()
+}
+
 $config = ConvertTo-ObjectArray (Get-Content -Raw $ConfigPath | ConvertFrom-Json)
 $existingEntries = @()
 if (Test-Path $PluginMasterPath) {
@@ -302,7 +361,7 @@ foreach ($plugin in $config) {
     }
 }
 
-$json = $output | ConvertTo-Json -Depth 20
+$json = Format-Json ($output | ConvertTo-Json -Depth 20 -Compress)
 if ($DryRun) {
     Write-Output $json
 }
