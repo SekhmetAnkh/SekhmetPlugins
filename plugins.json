@@ -13,5 +13,11 @@
     "metadata": {
       "Description": "Listens to GatherBuddy Reborn/Vulcan execution plans, detects missing drop-only materials using Vulcan/GatherBuddy mob-drop locations with local fallbacks, waits for GBR gathering to finish, equips a selected combat job, routes to the hunted monster, supports selectable RotationSolverReborn or WrathCombo combat drivers, and resumes Vulcan automatically."
     }
+  },
+  {
+    "owner": "SekhmetAnkh",
+    "repo": "OpenerPilot",
+    "manifestPath": "OpenerPilot/OpenerPilot.json",
+    "assetName": "OpenerPilot-latest.zip"
   }
 ]
