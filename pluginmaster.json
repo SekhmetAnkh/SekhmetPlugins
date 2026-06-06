@@ -73,7 +73,7 @@
     "Punchline": "Level 100 opener handoff helper.",
     "Description": "Local level 100 opener runner for standard combat jobs, using OpenerPilot opener data while keeping RotationSolverReborn off during execution and handing back afterward.",
     "InternalName": "OpenerPilot",
-    "AssemblyVersion": "0.2.8.0",
+    "AssemblyVersion": "0.2.9.0",
     "RepoUrl": "https://github.com/SekhmetAnkh/OpenerPilot",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -88,9 +88,9 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 5,
-    "LastUpdate": 1780736979,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.8/OpenerPilot-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.8/OpenerPilot-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.8/OpenerPilot-latest.zip"
+    "LastUpdate": 1780737570,
+    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.9/OpenerPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.9/OpenerPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.9/OpenerPilot-latest.zip"
   }
 ]
