@@ -61,7 +61,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 43,
+    "DownloadCount": 44,
     "LastUpdate": 1780821577,
     "DownloadLinkInstall": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.9/GBRMonsterHunter-latest.zip",
     "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.9/GBRMonsterHunter-latest.zip",
@@ -73,7 +73,7 @@
     "Punchline": "Level 100 opener handoff helper.",
     "Description": "Local level 100 opener runner for standard combat jobs, using OpenerPilot opener data while keeping RotationSolverReborn off during execution and handing back afterward.",
     "InternalName": "OpenerPilot",
-    "AssemblyVersion": "0.2.14.0",
+    "AssemblyVersion": "0.2.15.0",
     "RepoUrl": "https://github.com/SekhmetAnkh/OpenerPilot",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -88,9 +88,9 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 30,
-    "LastUpdate": 1781367490,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.14/OpenerPilot-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.14/OpenerPilot-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.14/OpenerPilot-latest.zip"
+    "LastUpdate": 1781368477,
+    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip"
   }
 ]
