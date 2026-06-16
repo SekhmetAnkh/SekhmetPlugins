@@ -1,6 +1,32 @@
 [
   {
     "Author": "SekhmetAnkh",
+    "Name": "PositionalPilot",
+    "Punchline": "Assistive, safety-gated melee positional movement.",
+    "Description": "Suggests or safely moves toward selected combat-source rear/flank positionals using BossMod safety and vnavmesh when explicitly enabled. Off by default, fail-closed, and no stealth or bypass behavior.",
+    "InternalName": "PositionalPilot",
+    "AssemblyVersion": "0.1.34.0",
+    "RepoUrl": "https://github.com/SekhmetAnkh/PositionalPilot",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "combat",
+      "positional",
+      "accessibility"
+    ],
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": true,
+    "DownloadCount": 28,
+    "LastUpdate": 1781286288,
+    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip"
+  },
+  {
+    "Author": "SekhmetAnkh",
     "Name": "GBR Monster Hunter",
     "Punchline": "Route to drop-only materials from crafting plans.",
     "Description": "Listens to GatherBuddy Reborn/Vulcan execution plans, detects missing drop-only materials using Vulcan/GatherBuddy mob-drop locations with local fallbacks, waits for GBR gathering to finish, equips a selected combat job, routes to the hunted monster, supports selectable RotationSolverReborn or WrathCombo combat drivers, and resumes Vulcan automatically.",
@@ -34,5 +60,31 @@
     "DownloadLinkInstall": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
     "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
     "DownloadLinkTesting": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip"
+  },
+  {
+    "Author": "SekhmetPlugins",
+    "Name": "OpenerPilot",
+    "Punchline": "Level 100 opener handoff helper.",
+    "Description": "Local level 100 opener runner for standard combat jobs, using OpenerPilot opener data while keeping RotationSolverReborn off during execution and handing back afterward.",
+    "InternalName": "OpenerPilot",
+    "AssemblyVersion": "0.2.15.0",
+    "RepoUrl": "https://github.com/SekhmetAnkh/OpenerPilot",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "rsr",
+      "opener",
+      "rotation"
+    ],
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": true,
+    "DownloadCount": 18,
+    "LastUpdate": 1781368477,
+    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip"
   }
 ]
