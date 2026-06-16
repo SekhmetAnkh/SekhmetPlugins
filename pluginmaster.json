@@ -37,7 +37,7 @@
     "Punchline": "Route to drop-only materials from crafting plans.",
     "Description": "Listens to GatherBuddy Reborn/Vulcan execution plans, detects missing drop-only materials using Vulcan/GatherBuddy mob-drop locations with local fallbacks, waits for GBR gathering to finish, equips a selected combat job, routes to the hunted monster, supports selectable RotationSolverReborn or WrathCombo combat drivers, and resumes Vulcan automatically.",
     "InternalName": "GBRMonsterHunter",
-    "AssemblyVersion": "0.1.12.0",
+    "AssemblyVersion": "0.1.13.0",
     "RepoUrl": "https://github.com/SekhmetAnkh/GBRMonsterHunter",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -62,10 +62,10 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 55,
-    "LastUpdate": 1781588883,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.12/GBRMonsterHunter-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.12/GBRMonsterHunter-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.12/GBRMonsterHunter-latest.zip"
+    "LastUpdate": 1781590025,
+    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
+    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip"
   },
   {
     "Author": "SekhmetPlugins",
