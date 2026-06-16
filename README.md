@@ -10,5 +10,4 @@ https://raw.githubusercontent.com/SekhmetAnkh/SekhmetPlugins/main/pluginmaster.j
 
 ## Plugins
 
-- PositionalPilot: assistive, safety-gated melee positional movement.
-- GBR Monster Hunter: routes to drop-only materials from GatherBuddy Reborn/Vulcan crafting plans.
+- GBR Monster Hunter: routes to drop-only materials and automatically farms them.
