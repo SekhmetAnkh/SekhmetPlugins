@@ -19,11 +19,11 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 30,
+    "DownloadCount": 31,
     "LastUpdate": 1781286288,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip"
+    "DownloadLinkInstall": "https://github.com/Ankhito/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip"
   },
   {
     "Author": "SekhmetAnkh",
@@ -57,9 +57,9 @@
     "AcceptsFeedback": true,
     "DownloadCount": 55,
     "LastUpdate": 1781590025,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip"
+    "DownloadLinkInstall": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.13/GBRMonsterHunter-latest.zip"
   },
   {
     "Author": "SekhmetPlugins",
@@ -81,10 +81,10 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 20,
+    "DownloadCount": 22,
     "LastUpdate": 1781368477,
-    "DownloadLinkInstall": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
-    "DownloadLinkTesting": "https://github.com/SekhmetAnkh/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip"
+    "DownloadLinkInstall": "https://github.com/Ankhito/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/OpenerPilot/releases/download/v0.2.15/OpenerPilot-latest.zip"
   }
 ]
