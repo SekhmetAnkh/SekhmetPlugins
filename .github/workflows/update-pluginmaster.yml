@@ -5,6 +5,12 @@ on:
   repository_dispatch:
     types:
       - update-pluginmaster
+  push:
+    branches:
+      - main
+    paths:
+      - plugins.json
+      - .github/workflows/update-pluginmaster.yml
   schedule:
     - cron: "17 */6 * * *"
 
