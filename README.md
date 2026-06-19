@@ -5,7 +5,7 @@ Dalamud custom repository for Ankhito plugins.
 Add this URL in Dalamud's Custom Plugin Repositories list:
 
 ```text
-https://raw.githubusercontent.com/Ankhito/SekhmetPlugins/main/pluginmaster.json
+https://raw.githubusercontent.com/Ankhito/AnkhitoPlugins/main/pluginmaster.json
 ```
 
 ## Plugins
