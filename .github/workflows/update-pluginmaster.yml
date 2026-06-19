@@ -22,7 +22,7 @@ jobs:
       - name: Update pluginmaster
         shell: pwsh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: ./scripts/Update-PluginMaster.ps1
 
       - name: Commit changes
