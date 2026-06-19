@@ -25,5 +25,14 @@
     "metadata": {
       "Author": "Ankhito"
     }
+  },
+  {
+    "owner": "Ankhito",
+    "repo": "Currency-Profit-Scanner",
+    "manifestPath": "CurrencyProfitScanner.json",
+    "assetName": "CurrencyProfitScanner-latest.zip",
+    "metadata": {
+      "Author": "Ankhito"
+    }
   }
 ]
