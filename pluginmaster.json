@@ -27,12 +27,12 @@
   },
   {
     "Author": "Ankhito",
-    "Name": "GBR Monster Hunter",
-    "Punchline": "Route to drop-only materials from crafting plans.",
-    "Description": "Listens to GatherBuddy Reborn/Vulcan execution plans, detects missing drop-only materials using Vulcan/GatherBuddy mob-drop locations with local fallbacks, waits for GBR gathering to finish, equips a selected combat job, routes to the hunted monster, supports selectable RotationSolverReborn or WrathCombo combat drivers, and resumes Vulcan automatically.",
-    "InternalName": "GBRMonsterHunter",
-    "AssemblyVersion": "0.1.15.0",
-    "RepoUrl": "https://github.com/Ankhito/GBRMonsterHunter",
+    "Name": "Huntsman",
+    "Punchline": "Search, route, and hunt drop-only materials.",
+    "Description": "Standalone monster-drop hunting and routing using local LuminaSupplemental data, manual hunt lists, vnavmesh navigation, mount support, and configurable combat handoff.",
+    "InternalName": "Huntsman",
+    "AssemblyVersion": "0.1.16.0",
+    "RepoUrl": "https://github.com/Ankhito/Huntsman",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "Tags": [
@@ -56,10 +56,10 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 55,
-    "LastUpdate": 1781788693,
-    "DownloadLinkInstall": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.15.0/GBRMonsterHunter-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.15.0/GBRMonsterHunter-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/GBRMonsterHunter/releases/download/v0.1.15.0/GBRMonsterHunter-latest.zip"
+    "LastUpdate": 1781862316,
+    "DownloadLinkInstall": "https://github.com/Ankhito/Huntsman/releases/download/v0.1.16.0/Huntsman-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/Huntsman/releases/download/v0.1.16.0/Huntsman-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/Huntsman/releases/download/v0.1.16.0/Huntsman-latest.zip"
   },
   {
     "Author": "Ankhito",
