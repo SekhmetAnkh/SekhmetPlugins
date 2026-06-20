@@ -93,7 +93,7 @@
     "Punchline": "Spend non-gil currencies where the market actually moves.",
     "Description": "Read-only currency profit scanner for tomestones, scrips, seals, MGP, hunt currencies, FATE gemstones, and other spendable currencies. Uses Universalis sales, supply, and stale-data checks to rank marketable rewards by practical gil profit.",
     "InternalName": "CurrencyProfitScanner",
-    "AssemblyVersion": "0.1.11.0",
+    "AssemblyVersion": "0.1.12.0",
     "RepoUrl": "https://github.com/Ankhito/Currency-Profit-Scanner",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -108,9 +108,9 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 6,
-    "LastUpdate": 1781993636,
-    "DownloadLinkInstall": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.11/CurrencyProfitScanner-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.11/CurrencyProfitScanner-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.11/CurrencyProfitScanner-latest.zip"
+    "LastUpdate": 1781994182,
+    "DownloadLinkInstall": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.12/CurrencyProfitScanner-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.12/CurrencyProfitScanner-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.12/CurrencyProfitScanner-latest.zip"
   }
 ]
