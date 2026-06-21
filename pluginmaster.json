@@ -141,10 +141,8 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 0,
-    "LastUpdate": 1782052570,
-    "HasConfigUi": true,
-    "HasMainUi": true,
-    "IconUrl": "https://raw.githubusercontent.com/Ankhito/AutomarketPro/main/automarketlogo_icon_64.png",
+    "LastUpdate": 1782052557,
+    "Changelog": "Fork build with retainer inventory scanning, sellability-aware listing priority, and filtered list/vendor modes.",
     "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip",
     "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip",
     "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip"
