@@ -119,7 +119,7 @@
     "Punchline": "Smart FFXIV marketboard automation.",
     "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending.",
     "InternalName": "AutomarketPro",
-    "AssemblyVersion": "1.0.0.14",
+    "AssemblyVersion": "1.0.0.15",
     "RepoUrl": "https://github.com/Ankhito/AutomarketPro",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -141,10 +141,10 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 0,
-    "LastUpdate": 1782052557,
-    "Changelog": "Fork build with retainer inventory scanning, sellability-aware listing priority, and filtered list/vendor modes.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.14/AutomarketPro-latest.zip"
+    "LastUpdate": 1782053232,
+    "Changelog": "Fixes Open/Settings and /automarket after plugin reloads while keeping retainer inventory scanning, sellability-aware listing priority, and filtered list/vendor modes.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.15/AutomarketPro-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.15/AutomarketPro-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.15/AutomarketPro-latest.zip"
   }
 ]
