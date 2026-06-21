@@ -119,7 +119,7 @@
     "Punchline": "Smart FFXIV marketboard automation.",
     "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending.",
     "InternalName": "AutomarketPro",
-    "AssemblyVersion": "1.0.0.20",
+    "AssemblyVersion": "1.0.0.21",
     "RepoUrl": "https://github.com/Ankhito/AutomarketPro",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -141,10 +141,10 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 2,
-    "LastUpdate": 1782084285,
-    "Changelog": "Automation now includes retainer-bag scan results in list/vendor queues and only processes retainer-sourced items while that retainer is open.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.20/AutomarketPro-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.20/AutomarketPro-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.20/AutomarketPro-latest.zip"
+    "LastUpdate": 1782085510,
+    "Changelog": "Makes Scan Results column headers actually sort rows, including text, numeric, profit, market health, and sellability score columns.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.21/AutomarketPro-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.21/AutomarketPro-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.21/AutomarketPro-latest.zip"
   }
 ]
