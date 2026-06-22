@@ -119,7 +119,7 @@
     "Punchline": "Smart FFXIV marketboard automation.",
     "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending.",
     "InternalName": "AutomarketPro",
-    "AssemblyVersion": "1.0.0.26",
+    "AssemblyVersion": "1.0.0.27",
     "RepoUrl": "https://github.com/Ankhito/AutomarketPro",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -141,11 +141,11 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 7,
-    "LastUpdate": 1782144157,
-    "Changelog": "Adds cross-retainer staging: profitable retainer-bag items can be withdrawn from full retainers into player inventory and listed on retainers with open market slots.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.26/AutomarketPro-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.26/AutomarketPro-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.26/AutomarketPro-latest.zip"
+    "LastUpdate": 1782155260,
+    "Changelog": "Fixes scan/planning handoff by closing retainer inventory/transfer views after scanning before staging and execution begins.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.27/AutomarketPro-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.27/AutomarketPro-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.27/AutomarketPro-latest.zip"
   },
   {
     "Author": "Ankhito",
