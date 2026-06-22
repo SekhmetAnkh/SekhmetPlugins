@@ -153,7 +153,7 @@
     "Punchline": "Temporary encrypted .pmp transfer client.",
     "Description": "Uploads and downloads encrypted .pmp transfers through a private PmpShare Cloudflare Worker API. No plaintext files or decryption keys are sent to the server.",
     "InternalName": "PmpShare.Plugin",
-    "AssemblyVersion": "0.1.6.0",
+    "AssemblyVersion": "0.1.7.0",
     "RepoUrl": "https://github.com/Ankhito/pmpshare",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -175,11 +175,11 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 2,
-    "LastUpdate": 1782154600,
-    "Changelog": "Testing release. Focuses Send/Receive on the automatic contact flow, moves manual share-code tools into advanced sections, moves the Penumbra export folder out of Settings, and adds operation progress bars/stages.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.6-testing/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.6-testing/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.6-testing/latest.zip",
-    "TestingAssemblyVersion": "0.1.6.0"
+    "LastUpdate": 1782155600,
+    "Changelog": "Testing release. Hardcodes and locks the PmpShare testing API URL and tester key, removing both fields from Settings.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.7-testing/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.7-testing/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.7-testing/latest.zip",
+    "TestingAssemblyVersion": "0.1.7.0"
   }
 ]
