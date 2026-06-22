@@ -119,7 +119,7 @@
     "Punchline": "Smart FFXIV marketboard automation.",
     "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending.",
     "InternalName": "AutomarketPro",
-    "AssemblyVersion": "1.0.0.23",
+    "AssemblyVersion": "1.0.0.24",
     "RepoUrl": "https://github.com/Ankhito/AutomarketPro",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -141,10 +141,10 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 2,
-    "LastUpdate": 1782087298,
-    "Changelog": "Fixes hangs when a retainer is already at the marketboard listing limit by closing back to the retainer list and advancing immediately.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.23/AutomarketPro-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.23/AutomarketPro-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.23/AutomarketPro-latest.zip"
+    "LastUpdate": 1782087687,
+    "Changelog": "Adds a dashboard Posted Marketboard Value refresh that totals gil currently listed for sale across retainers.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip"
   }
 ]
