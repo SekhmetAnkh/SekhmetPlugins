@@ -19,7 +19,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 62,
+    "DownloadCount": 63,
     "LastUpdate": 1781286288,
     "DownloadLinkInstall": "https://github.com/Ankhito/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
     "DownloadLinkUpdate": "https://github.com/Ankhito/PositionalPilot/releases/download/v0.1.34/PositionalPilot-latest.zip",
@@ -107,7 +107,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 7,
+    "DownloadCount": 8,
     "LastUpdate": 1782037249,
     "DownloadLinkInstall": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.14/CurrencyProfitScanner-latest.zip",
     "DownloadLinkUpdate": "https://github.com/Ankhito/Currency-Profit-Scanner/releases/download/v0.1.14/CurrencyProfitScanner-latest.zip",
@@ -140,11 +140,44 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadCount": 2,
+    "DownloadCount": 3,
     "LastUpdate": 1782087683,
     "Changelog": "Adds a dashboard Posted Marketboard Value section that refreshes retainer listings and totals gil currently posted for sale. Also allows listed-row parsing to count price-only rows for value totals while price management still requires resolved item IDs.",
     "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip",
     "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip",
     "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.24/AutomarketPro-latest.zip"
+  },
+  {
+    "Author": "Ankhito",
+    "Name": "PmpShare",
+    "Punchline": "Temporary encrypted .pmp transfer client.",
+    "Description": "Uploads and downloads encrypted .pmp transfers through a private PmpShare Cloudflare Worker API. No plaintext files or decryption keys are sent to the server.",
+    "InternalName": "PmpShare.Plugin",
+    "AssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/Ankhito/pmpshare",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "pmp",
+      "transfer",
+      "testing"
+    ],
+    "CategoryTags": [
+      "Utility",
+      "Testing"
+    ],
+    "IsTestingExclusive": true,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": true,
+    "DownloadCount": 0,
+    "LastUpdate": 1782134844,
+    "Changelog": "Testing-only prerelease for the PmpShare MVP. This is not a normal Dalamud release and is not published to a Dalamud plugin repository. Includes the Cloudflare Worker/R2 transfer API, setup docs, remote/local Worker test scripts, and a private-testing Dalamud client that encrypts/decrypts locally and calls the deployed relay API. Server never receives plaintext .pmp files or decryption keys.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.0-testing/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.0-testing/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.0-testing/latest.zip",
+    "TestingAssemblyVersion": "0.1.0.0"
   }
 ]

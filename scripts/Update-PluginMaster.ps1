@@ -254,14 +254,28 @@ foreach ($plugin in $config) {
     Write-Host "Updating $repoFullName"
 
     try {
-        $sourceManifestUrl = "https://raw.githubusercontent.com/$repoFullName/main/$($plugin.manifestPath)"
+        $sourceRef = "main"
+        if ($plugin.PSObject.Properties.Name -contains "sourceRef" -and $plugin.sourceRef) {
+            $sourceRef = $plugin.sourceRef
+        }
+
+        $sourceManifestUrl = "https://raw.githubusercontent.com/$repoFullName/$sourceRef/$($plugin.manifestPath)"
         $sourceManifest = (Invoke-WebRequest -Uri $sourceManifestUrl -UseBasicParsing).Content | ConvertFrom-Json
         $releases = @(Get-GitHubJson "https://api.github.com/repos/$repoFullName/releases?per_page=100")
         $stableRelease = $releases | Where-Object { ($_.draft -ne $true) -and ($_.prerelease -ne $true) } | Sort-Object published_at -Descending | Select-Object -First 1
         $testingRelease = $releases | Where-Object { ($_.draft -ne $true) -and ($_.prerelease -eq $true) } | Sort-Object published_at -Descending | Select-Object -First 1
 
+        $testingOnly = $false
+        if ($plugin.PSObject.Properties.Name -contains "testingOnly" -and $plugin.testingOnly -eq $true) {
+            $testingOnly = $true
+        }
+
         if (-not $stableRelease) {
-            throw "No stable release found for $repoFullName"
+            if (-not $testingOnly -or -not $testingRelease) {
+                throw "No stable release found for $repoFullName"
+            }
+
+            $stableRelease = $testingRelease
         }
 
         $stableAsset = Get-ReleaseAsset $stableRelease $plugin.assetName
@@ -336,6 +350,10 @@ foreach ($plugin in $config) {
         $entry["LastUpdate"] = $lastUpdate
         if ($stableRelease.body) {
             $entry["Changelog"] = $stableRelease.body
+        }
+
+        if ($testingOnly) {
+            $entry["IsTestingExclusive"] = $true
         }
 
         $entry["DownloadLinkInstall"] = $stableAsset.browser_download_url

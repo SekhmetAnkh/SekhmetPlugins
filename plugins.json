@@ -43,5 +43,26 @@
     "metadata": {
       "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending."
     }
+  },
+  {
+    "owner": "Ankhito",
+    "repo": "pmpshare",
+    "sourceRef": "codex/testing-release",
+    "manifestPath": "client/PmpShare.Plugin/PmpShare.Plugin.json",
+    "assetName": "latest.zip",
+    "testingOnly": true,
+    "metadata": {
+      "Author": "Ankhito",
+      "IsTestingExclusive": true,
+      "Tags": [
+        "pmp",
+        "transfer",
+        "testing"
+      ],
+      "CategoryTags": [
+        "Utility",
+        "Testing"
+      ]
+    }
   }
 ]
