@@ -153,7 +153,7 @@
     "Punchline": "Temporary encrypted .pmp transfer client.",
     "Description": "Uploads and downloads encrypted .pmp transfers through a private PmpShare Cloudflare Worker API. No plaintext files or decryption keys are sent to the server.",
     "InternalName": "PmpShare.Plugin",
-    "AssemblyVersion": "0.1.14.0",
+    "AssemblyVersion": "0.1.15.0",
     "RepoUrl": "https://github.com/Ankhito/pmpshare",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -175,11 +175,11 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 12,
-    "LastUpdate": 1782293505,
-    "Changelog": "Testing release. Adds automatic temporary packaging for selected Penumbra mods, removes the export-folder send flow, and adds a searchable boxed installed-mod list for easier sending.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.14-testing/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.14-testing/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.14-testing/latest.zip",
-    "TestingAssemblyVersion": "0.1.14.0"
+    "LastUpdate": 1782293881,
+    "Changelog": "Testing release. Adds automatic inbox polling and chat notifications for new pending receive requests, while quietly refreshing the Receive inbox without overwriting operation results.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.15-testing/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.15-testing/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.15-testing/latest.zip",
+    "TestingAssemblyVersion": "0.1.15.0"
   }
 ]
