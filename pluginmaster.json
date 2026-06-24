@@ -175,7 +175,7 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 12,
-    "LastUpdate": 1782294687,
+    "LastUpdate": 1782294694,
     "Changelog": "Testing release. Keeps tabs pinned while content scrolls, hides raw selected mod paths in send UX, keeps uploaded PMP names based on the selected mod name, and adds an editable display name sent as request metadata without changing the account-level PmpShare identity.",
     "DownloadLinkInstall": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.17-testing/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Ankhito/pmpshare/releases/download/v0.1.17-testing/latest.zip",
