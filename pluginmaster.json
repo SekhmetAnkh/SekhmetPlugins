@@ -119,7 +119,7 @@
     "Punchline": "Smart FFXIV marketboard automation.",
     "Description": "Fork build of AutoMarket Pro with retainer inventory scanning, sellability-aware Universalis ranking, filtered list/vendor modes, and marketboard automation while upstream changes are pending.",
     "InternalName": "AutomarketPro",
-    "AssemblyVersion": "1.0.0.38",
+    "AssemblyVersion": "1.0.0.39",
     "RepoUrl": "https://github.com/Ankhito/AutomarketPro",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -141,11 +141,11 @@
     "LoadPriority": 0,
     "AcceptsFeedback": true,
     "DownloadCount": 7,
-    "LastUpdate": 1782310737,
-    "Changelog": "Post-review hardening release.\\n\\n- Harden fast repricing so it fails instead of confirming when the RetainerSell price field does not apply.\\n- Parse Universalis upload timestamps defensively as milliseconds or seconds when calculating stale market data.\\n- Rebuilt release artifact against the reviewed code path.",
-    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.38/AutomarketPro-latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.38/AutomarketPro-latest.zip",
-    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.38/AutomarketPro-latest.zip"
+    "LastUpdate": 1782391049,
+    "Changelog": "Stops retainer recovery from touching normal player inventory windows and makes Stop cancel active scans.",
+    "DownloadLinkInstall": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.39/AutomarketPro-latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.39/AutomarketPro-latest.zip",
+    "DownloadLinkTesting": "https://github.com/Ankhito/AutomarketPro/releases/download/v1.0.0.39/AutomarketPro-latest.zip"
   },
   {
     "Author": "Ankhito",
